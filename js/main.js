@@ -1,5 +1,5 @@
-let firstNumber = 5;
-let secondNumber = 3;
+let a = 5;
+let b = 3;
 
 function sum(firstNumber,secondNumber){
     let result = firstNumber + secondNumber
@@ -7,6 +7,6 @@ function sum(firstNumber,secondNumber){
     return result
 }
 
-let wynikDodawania = sum(firstNumber,secondNumber);
+let wynikDodawania = sum(a,b);
 
 console.log(wynikDodawania);
